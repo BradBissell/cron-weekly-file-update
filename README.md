@@ -17,7 +17,7 @@ Make the update script executable by running:
 chmod +x force_update.sh
 ```
 
-### Step 3: Add a Cron Job
+### Step 2: Add a Cron Job
 
 Edit your crontab file to schedule the script to run once a week. Open your crontab file in edit mode:
 
@@ -34,7 +34,7 @@ Add the following line to the crontab file to schedule the script to run every M
 
 Save and close the crontab file.
 
-### Step 4: Verify the Cron Job
+### Step 3: Verify the Cron Job
 
 To verify that the cron job has been added, you can list your current cron jobs with:
 
